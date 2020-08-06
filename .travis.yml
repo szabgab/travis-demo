@@ -1,4 +1,4 @@
-dist: focal
+dist: osx
 language: minimal
 script:
   - echo Hello World
