@@ -1,2 +1,9 @@
 language: minimal
-script: exit 1
+script:
+  - echo Hello World
+  - python -v
+  - docker -v
+  - perl -v
+  - git --version
+  - lsb_release -a
+  - exit 0
