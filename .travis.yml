@@ -1,4 +1,4 @@
-dist: trusty
+dist: bionic
 language: minimal
 script:
   - echo Hello World
