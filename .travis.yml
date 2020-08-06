@@ -1,7 +1,7 @@
 language: minimal
 script:
   - echo Hello World
-  - python -v
+  - python -V
   - docker -v
   - perl -v
   - git --version
