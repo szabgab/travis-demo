@@ -1,11 +1,1 @@
-dist: focal
-xyz:
-language: minimal
-script:
-  - echo Hello World
-  - python -V
-  - ruby -v
-  - perl -v
-  - git --version
-  - uname -a
-  - exit 0
+language: perl
