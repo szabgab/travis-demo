@@ -1,4 +1,4 @@
-dist: osx
+os: osx
 language: minimal
 script:
   - echo Hello World
