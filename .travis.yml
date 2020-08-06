@@ -6,8 +6,6 @@ script:
   - python3 -V
   - ruby -v
   - perl -v
-  - docker -v
   - git --version
   - uname -a
-  - lsb_release -a
   - exit 0
