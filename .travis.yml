@@ -8,5 +8,6 @@ script:
   - perl -v
   - docker -v
   - git --version
+  - uname -a
   - lsb_release -a
   - exit 0
