@@ -1,4 +1,4 @@
-os: osx
+os: windows
 language: minimal
 script:
   - echo Hello World
