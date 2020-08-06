@@ -2,8 +2,10 @@ language: minimal
 script:
   - echo Hello World
   - python -V
-  - docker -v
+  - python3 -V
+  - ruby -v
   - perl -v
+  - docker -v
   - git --version
   - lsb_release -a
   - exit 0
