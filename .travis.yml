@@ -2,6 +2,8 @@ language: perl
 perl:
    - "5.30"
    - "5.28"
+   - "5.10"
+   - "5.8"
 
 env:
     - DEMO=Alpha
