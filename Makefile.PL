@@ -2,6 +2,8 @@ use strict;
 use warnings;
 use ExtUtils::MakeMaker;
 
+print "$ENV{DEMO}\n";
+
 WriteMakefile(
 	NAME         => 'Project',
 	AUTHOR       => q{Gabor Szabo <szabgab@cpan.org>},
