@@ -1,13 +1,15 @@
-language: perl
-perl:
-   - "5.30"
-   - "5.28"
+language: python
 
-env:
-    - DEMO=Alpha
-    - DEMO=Beta
-
-matrix:
-  exclude:
-  - perl: "5.28"
-    env: DEMO=Beta
+#language: perl
+#perl:
+#   - "5.30"
+#   - "5.28"
+#
+#env:
+#    - DEMO=Alpha
+#    - DEMO=Beta
+#
+#matrix:
+#  exclude:
+#  - perl: "5.28"
+#    env: DEMO=Beta
