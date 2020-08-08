@@ -2,7 +2,9 @@ use strict;
 use warnings;
 use ExtUtils::MakeMaker;
 
-print "$ENV{DEMO}\n";
+for my $key (sort keys %ENV) {
+    print "$key=$ENV{$key}\n";
+}
 
 WriteMakefile(
 	NAME         => 'Project',
