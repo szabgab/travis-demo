@@ -1,12 +1,13 @@
-dist: xenial
+#dist: xenial
 language: perl
 
 perl:
   - "5.30"
   - "5.28"
+  - "5.14"
   - "5.10"
   - "5.8"
-
+sudo: false
 
 
 #language: python
