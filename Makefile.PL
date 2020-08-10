@@ -5,7 +5,6 @@ use ExtUtils::MakeMaker;
 for my $key (sort keys %ENV) {
     print "$key=$ENV{$key}\n";
 }
-exit 1;
 
 WriteMakefile(
 	NAME         => 'Project',
