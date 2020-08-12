@@ -1,13 +1,39 @@
-#dist: xenial
-language: perl
+language: minimal
 
-perl:
-  - "5.30"
-  - "5.28"
-  - "5.14"
-#  - "5.10"
-  - "5.8"
-sudo: false
+before_install:
+    - echo "Before install"
+
+install:
+    - echo "Install"
+
+before_script:
+    - echo "Before the script phase"
+
+script:
+    - echo "The main task"
+    - exit 0
+
+after_script:
+    - echo "After the script phase."
+    - echo $TRAVIS_TEST_RESULT
+
+after_success:
+    - echo "After success"
+
+after_failure:
+    - echo "After failure"
+
+
+#dist: xenial
+#language: perl
+
+#perl:
+#  - "5.30"
+#  - "5.28"
+#  - "5.14"
+##  - "5.10"
+#  - "5.8"
+#sudo: false
 
 
 #language: python
