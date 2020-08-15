@@ -1,8 +1,6 @@
 import os
 
-for env in sorted(os.environ.keys()):
-    print(f"{env:25} = {os.environ[env]}")
-
+print(f"DATABASE = {os.environ['DATABASE']}")
 
 
 def test_anything():
