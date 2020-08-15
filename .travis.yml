@@ -1,6 +1,12 @@
-language: minimal
-script: ./run.sh
+language: python
+script: pytest
 
+python:
+  - "3.7"
+  - "3.8"
+
+
+#
 #before_install:
 #    - echo "Before install"
 #
@@ -39,9 +45,6 @@ script: ./run.sh
 #  - "5.8"
 #sudo: false
 
-
-#language: python
-#script: pytest
 
 #language: perl
 #perl:
