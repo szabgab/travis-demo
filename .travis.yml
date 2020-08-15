@@ -29,10 +29,8 @@ before_script:
 script:
     - echo "The main task"
     - ls
-    - echo $?
-    - ls qqrq
-    - echo $?
-    - ls
+    #- ls qqrq
+    #- ls
 
 after_script:
     - echo "After the script phase."
