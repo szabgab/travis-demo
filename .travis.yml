@@ -11,7 +11,6 @@ before_script:
 
 script:
     - echo "The main task"
-    - exit 0
 
 after_script:
     - echo "After the script phase."
