@@ -1,5 +1,5 @@
 language: minimal
-script: run.sh
+script: ./run.sh
 
 #before_install:
 #    - echo "Before install"
