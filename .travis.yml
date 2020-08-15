@@ -11,6 +11,10 @@ before_script:
 
 script:
     - echo "The main task"
+    - ls
+    - ls qqrq
+    - echo $?
+    - ls
 
 after_script:
     - echo "After the script phase."
