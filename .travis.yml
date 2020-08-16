@@ -1,3 +1,11 @@
+language: python
+script: pytest -s
+
+python:
+  - "3.7"
+  - "3.8"
+
+
 #language: python
 #script: pytest -s -m $DATABASE
 #
@@ -16,31 +24,31 @@
 #
 #
 
-language: minimal
-before_install:
-    - echo "Before install"
-
-install:
-    - echo "Install"
-
-before_script:
-    - echo "Before the script phase"
-
-script:
-    - echo "The main task"
-    - ls
-    #- ls qqrq
-    #- ls
-
-after_script:
-    - echo "After the script phase."
-    - echo $TRAVIS_TEST_RESULT
-
-after_success:
-    - echo "After success"
-
-after_failure:
-    - echo "After failure"
+#language: minimal
+#before_install:
+#    - echo "Before install"
+#
+#install:
+#    - echo "Install"
+#
+#before_script:
+#    - echo "Before the script phase"
+#
+#script:
+#    - echo "The main task"
+#    - ls
+#    #- ls qqrq
+#    #- ls
+#
+#after_script:
+#    - echo "After the script phase."
+#    - echo $TRAVIS_TEST_RESULT
+#
+#after_success:
+#    - echo "After success"
+#
+#after_failure:
+#    - echo "After failure"
 
 
 #dist: xenial
