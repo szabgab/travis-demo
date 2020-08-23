@@ -4,6 +4,9 @@ import sys
 
 print(sys.version)
 
+def test_hi():
+    pass
+
 #print(f"DATABASE = {os.environ['DATABASE']}")
 #
 #@pytest.mark.postgresql
