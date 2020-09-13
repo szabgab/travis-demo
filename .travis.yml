@@ -63,11 +63,11 @@ perl:
 #sudo: false
 
 #script: perl regex.pl
-install: echo skip
-script:
-    - cpanm --verbose --notest --installdeps .
-after_failure:
-    - cat /home/travis/.cpanm/work/*/build.log
+#install: echo skip
+#script:
+#    - cpanm --verbose --notest --installdeps .
+#after_failure:
+#    - cat /home/travis/.cpanm/work/*/build.log
 
 #language: perl
 #perl:
