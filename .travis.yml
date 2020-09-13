@@ -1,9 +1,9 @@
-language: python
-script: pytest -s
-
-python:
-  - "3.7"
-  - "3.8"
+#language: python
+#script: pytest -s
+#
+#python:
+#  - "3.7"
+#  - "3.8"
 
 
 #language: python
@@ -51,17 +51,23 @@ python:
 #    - echo "After failure"
 
 
-#dist: xenial
-#language: perl
+dist: xenial
+language: perl
 
-#perl:
-#  - "5.30"
-#  - "5.28"
-#  - "5.14"
-##  - "5.10"
-#  - "5.8"
+perl:
+  - "5.30"
+  - "5.28"
+  - "5.14"
+#  - "5.10"
+  - "5.8"
 #sudo: false
 
+#script: perl regex.pl
+install: echo skip
+script:
+    - cpanm --verbose --notest --installdeps .
+after_failure:
+    - cat /home/travis/.cpanm/work/*/build.log
 
 #language: perl
 #perl:
