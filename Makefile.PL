@@ -17,6 +17,10 @@ WriteMakefile(
 	PL_FILES  => {},
 	PREREQ_PM => {
         'Tk'         => 0,
+        'Perl::Tidy' => 0
+
+        'Test::More' => 0,
+        'Test::CPAN::Changes' => 0,
 	},
 	dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
 );
