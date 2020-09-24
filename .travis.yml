@@ -1,3 +1,8 @@
+language: perl
+install: pass
+script: pass
+
+#script: pytest -s
 #language: python
 #script: pytest -s
 #
@@ -51,15 +56,15 @@
 #    - echo "After failure"
 
 
-dist: xenial
-language: perl
-
-perl:
-  - "5.30"
-  - "5.28"
-  - "5.14"
-#  - "5.10"
-  - "5.8"
+#dist: xenial
+#language: perl
+#
+#perl:
+#  - "5.30"
+#  - "5.28"
+#  - "5.14"
+##  - "5.10"
+#  - "5.8"
 #sudo: false
 
 #script: perl regex.pl
