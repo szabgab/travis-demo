@@ -1,6 +1,6 @@
 language: perl
-install: pass
-script: pass
+install: true
+script: true
 
 #script: pytest -s
 #language: python
