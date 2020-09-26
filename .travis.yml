@@ -1,6 +1,6 @@
-language: perl
+language: minimal
 install: true
-script: perl -E 'say $^O'
+script: uname -a
 os:
    - osx
    - windows
