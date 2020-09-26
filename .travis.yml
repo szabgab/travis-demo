@@ -1,6 +1,10 @@
 language: perl
 install: true
-script: true
+script: perl -E 'say $^O'
+os:
+   - osx
+   - windows
+   - linux
 
 #script: pytest -s
 #language: python
